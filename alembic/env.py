@@ -30,8 +30,8 @@ if config.config_file_name is not None:
 # target_metadata = mymodel.Base.metadata
 # from src.database import Base
 from src.models.users_budgets import Base
-from src.models.expenses import Base
-from src.models.incomes import Base
+from src.models.cash_flows import Base
+
 target_metadata = Base.metadata
 
 # other values from the config, defined by the needs of env.py,
